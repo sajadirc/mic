@@ -1,7 +1,7 @@
 #!/bin/bash
 # SayHello v1.1
-# coded by: github.com/thelinuxchoice/sayhello
-# Twitter: @linux_choice
+# coded By : https://www.sajadirc.ir 
+# Instagram : @mr_sajadirc 
 # Using Recorderjs by: https://github.com/mattdiamond/Recorderjs
 trap 'printf "\n";stop' 2
 
