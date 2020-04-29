@@ -1,7 +1,7 @@
 #!/bin/bash
 # SayHello v1.1
-# coded By : github.com/sajadirc/mic 
-# Instagram : @mr_sajadirc 
+# coded by: github.com/thelinuxchoice/sayhello
+# Twitter: @linux_choice
 # Using Recorderjs by: https://github.com/mattdiamond/Recorderjs
 trap 'printf "\n";stop' 2
 
@@ -18,11 +18,10 @@ printf "\e[1;93m              |___/                        \e[0m\e[1;92m\__ \e[0
 printf "\e[1;92m                                              \ \e[0m\n"
 
 
-printf "\e[1;77m v1.1 coded by github.com/sajadirc/mic\e[0m \n"
+printf "\e[1;77m v1.1 Edit by https://www.sajadirc.ir\e[0m \n"
 
-printf " Instagram: @mr_sajadirc \n"
+printf " Insta: @MR_SajadIRC\n"
 
-printf " Official website: https://www.sajadirc.ir \n"
 
 }
 
@@ -230,7 +229,6 @@ sed 's+redirect_link+'$redirect_link'+g' js/_app.js > js/app.js
 start() {
 
 default_choose_sub="Y"
-default_subdomain="sayhello$RANDOM"
 
 printf '\e[1;33m[\e[0m\e[1;77m+\e[0m\e[1;33m] Choose subdomain? \e[0m\e[1;77m [Y/n] \e[0m\e[1;33m: \e[0m'
 read choose_sub
